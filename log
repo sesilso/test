@@ -1,0 +1,42 @@
+http://172.23.155.74:8080/experto-cep-pe-client-orchestration/api/consumer
+
+{
+  "compressResponse": false,
+  "canCallSmarts": false,
+  "allowNonexistenApplicantFlow":false,
+  "applicants": {
+    "primaryConsumer": {
+      "personalInformation": {
+        "name": [{
+          "identifier": "current"
+        }],
+        "peruIdType": "1",
+        "peruIdNumber": "00046858201",
+        "addresses": [{
+          "identifier": "Current"
+        }],
+        "customerReferenceIdentifier": "GMG"
+      }
+    }
+  }
+}
+
+
+Content-Type:application/vnd.com.equifax.backbone.service.orchestration.rest.request.v1+json
+Authorization:Basic Y3Jpc3RpYW4ucml2ZXJhOnBhc3N3b3JkMg==
+logevent:true
+Accept:application/vnd.com.equifax.backbone.service.orchestration.rest.response.v1+json
+
+
+172.25.31.51
+172.25.31.52
+
+10.24.36.227
+10.24.36.228
+10.24.36.229
+10.24.36.230
+
+10.24.36.203
+10.24.36.216
+10.24.36.215
+10.24.36.240
